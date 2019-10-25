@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Барбершоп 'Бородинский'</title>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&display=swap&subset=cyrillic"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="CSS/normalize.css" />
+    <link rel="stylesheet" href="CSS/style.css" />
 </head>
 
 <body>
@@ -15,7 +19,7 @@
                     alt="Логотип барбершопа 'Бородинский'"></a>
             <ul class="site-navigation">
                 <li><a href="info.html">Информация</a></li>
-                <li><a href="news.html">Новосити</a></li>
+                <li><a href="news.html">Новости</a></li>
                 <li><a href="price.html">Прайс-лист</a></li>
                 <li class="site-navigation-current"><a href="#">Магазин</a></li>
                 <li><a href="contacts.html§">Контакты</a></li>
@@ -29,8 +33,8 @@
         <h1 class="page-title">набор для путешествий «Baxter of California»</h1>
         <ul class="breadcrumbs">
             <li><a href="index.html">Главная</a></li>
-            <li><a href="cata log.html">Магазин</a></li>
-            <li><a href="shop.html">Средства для ухода</a></li>
+            <li><a href="shop.html">Магазин</a></li>
+            <li><a href="#">Средства для ухода</a></li>
             <li class="breadcrumbs-current">набор для путешествий «Baxter of California»</li>
         </ul>
         <section class="product-photos">
@@ -101,16 +105,17 @@
         </p>
     </footer>
     <section class="modal modal-login">
-            <h2>Личный кабинет</h2>
-            <p>Введите пожалуйста свой логин и пароль</p>
-            <Form class="login-form" action="https://echo.htmlacademy.ru" method="post">
+        <h2>Личный кабинет</h2>
+        <p>Введите пожалуйста свой логин и пароль</p>
+        <Form class="login-form" action="https://echo.htmlacademy.ru" method="post">
             <p>
                 <label class="visually-hidden" for="user-login">Логин</label>
                 <input class="login-icon-user" id="user-login" type="text" name="login" value="" placeholder="Логин">
             </p>
             <p>
                 <label class="visually-hidden" for="user-password">Пароль</label>
-                <input class="login-icon-password" id="user-password" type="password" name="password" value="" placeholder="Пароль">
+                <input class="login-icon-password" id="user-password" type="password" name="password" value=""
+                    placeholder="Пароль">
             </p>
             <p class="login-password-info">
                 <label class="login-checkbox">
@@ -121,16 +126,17 @@
                 <a class="restore" href="#">Я забыл пароль!</a>
             </p>
             <button class="button" type="submit">Войти</button>
-            </Form>
-            <button class="modal-close" type="button">Закрыть</button>
-        </section>
-        <section class="modal modal-map">
-            <h2 class="visually-hidden">Как до нас добраться</h2>
-            <p>
-                <img src="img/map.jpg" width="780" height="560" alt="Офис компании по адресу ул. Большая конюшенная 19/8, Санкт-Петербург">
-            </p>
-            <button class="modal-close" type="button">Закрыть</button>
-        </section>
+        </Form>
+        <button class="modal-close" type="button">Закрыть</button>
+    </section>
+    <section class="modal modal-map">
+        <h2 class="visually-hidden">Как до нас добраться</h2>
+        <p>
+            <img src="img/map.jpg" width="780" height="560"
+                alt="Офис компании по адресу ул. Большая конюшенная 19/8, Санкт-Петербург">
+        </p>
+        <button class="modal-close" type="button">Закрыть</button>
+    </section>
 </body>
 
 </html>
