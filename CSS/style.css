@@ -149,7 +149,7 @@ a {
 }
 
 .filters fieldset {
-    border: none;
+    border: none;  
 }
 
 .filter legend {
@@ -239,6 +239,52 @@ a {
     color: #000000;
 
     background-color: #ffffff;
+}
+
+/* Фотографии товара item.html ================
+========================== */
+
+.product-photo-preview {
+    list-style: none;
+}
+
+.product-photo-preview li {
+    box-shadow: 0 0 15px 0 rgba(0, 1, 1, 0.2);
+}
+
+.product-photo-full {
+    box-shadow: 0 0 15px 0 rgba(0, 1, 1, 0.2);
+}
+
+/* Артикул товара item.html ================
+========================== */
+
+.product-article {
+    text-align: right;
+    color: #aeaeae;
+}
+
+/* Цена товара item.html ================
+========================== */
+
+.product-price b {
+    text-align: center;
+
+    background-color: #e5e5e5;
+}
+
+/* Список товара item.html ================
+========================== */
+
+.product-info h3 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+
+}
+
+.product-info ul {
+    list-style: none;
 }
 
 /* подвал сайта */
