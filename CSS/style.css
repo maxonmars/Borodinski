@@ -98,21 +98,21 @@ a {
     justify-content: space-between;
 }
 
-.site-navigation,
-.user-navigation {
+.site-navigation {
+    width: 620px;
+    display: flex;
     margin: 0;
     padding: 0;
 
     list-style: none;
 }
 
-.site-navigation {
-    width: 620px;
-    display: flex;
-}
-
 .user-navigation {
     width: 140px;
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
 }
 
 .site-navigation a,
