@@ -57,7 +57,7 @@ a {
 
 /* стили для страницы index */
 
-.main-hheader {
+.main-header {
     margin-bottom: 75px;
 }
 
@@ -99,7 +99,7 @@ a {
 
 .site-navigation {
     width: 620px;
-    display: flex;
+    /* display: flex; */
     margin: 0;
     padding: 0;
 
@@ -210,12 +210,43 @@ a {
 }
 
 /* стили для страницы shop */
+
+.inner-page .main-header {
+    margin-bottom: 50px;
+
+    background-color: #000000;
+}
+
+.inner-page .main-header-logo {
+    order: 0;
+    width: 111px;
+    height: 24px;
+    padding: 23px 20px;
+}
+
+.inner-page .main-navigation {
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+.inner-page .user-navigation {
+    margin-left: auto;
+}
+
 .page-title {
+    margin: 0;
+    margin-bottom: 15px;
+    padding: 0;
+
     font-size: 30px;
     line-height: 42px;
 }
 
 .breadcrumbs {
+    margin: 0;
+    margin-bottom: 50px;
+    padding: 0;
+
     list-style: none;
 }
 
@@ -230,6 +261,15 @@ a {
 
 .breadcrumbs-current {
     color: #aba9a7;
+}
+
+.catalog-columns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.filters {
+    width: 220px;
 }
 
 .filters fieldset {
@@ -257,13 +297,31 @@ a {
     opacity: 0.5;
 }
 
+.catalog {
+    width: 700px;
+}
+
 .catalog-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    margin-bottom: 25px;
+    padding: 0;
+
     list-style: none;
 }
 
 .catalog-item {
+    width: 220px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+
     background-color: #f8f8f8;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.catalog-item:nth-child(3n) {
+    margin-right: 0;
 }
 
 .catalog-item:hover {
@@ -296,6 +354,9 @@ a {
 }
 
 .pagination-list {
+    margin: 0;
+    padding: 0;
+
     list-style: none;
 }
 
@@ -372,16 +433,21 @@ a {
 }
 
 /* подвал сайта */
+
 .main-footer {
     padding: 60px 0;
     margin-top: 65px;
-
+    
     color: #ffffff;
-
+    
     background-color: #242424;
     background-image: url(/img/backgroundFooter.jpg);
     background-position: 0 0;
     background-repeat: repeat;
+}
+
+.inner-page .main-footer {
+    margin-top: 45px;
 }
 
 .main-footer .container {
