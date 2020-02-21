@@ -389,6 +389,10 @@ a {
 /* Фотографии товара item.html ================
 ========================== */
 
+.product-photos {
+    width: 460px;
+}
+
 .product-photo-preview {
     list-style: none;
 }
@@ -418,8 +422,12 @@ a {
     background-color: #e5e5e5;
 }
 
-/* Список товара item.html ================
+/* Описание товара item.html ================
 ========================== */
+
+.product-info {
+    width: 390px;
+}
 
 .product-info h3 {
     font-size: 24px;
