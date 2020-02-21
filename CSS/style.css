@@ -90,7 +90,6 @@ a {
     margin: 0 auto;
     padding: 0 10px;
 
-    border: 1px solid blue;
 }
 
 .main-navigation-wrapper .container {
@@ -127,11 +126,22 @@ a {
     background-color: #242424;
 }
 
+.features {
+    margin-bottom: 80px;
+}
+
 .features-list {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+
     list-style: none;
 }
 
 .feature-item {
+    width: 300px;
+
     text-align: center;
 }
 
@@ -141,6 +151,11 @@ a {
 }
 
 .index-columns {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 35px;
+    padding: 50px 80px;
+
     color: #000000;
 
     background-color: #fdfaf7;
@@ -154,6 +169,10 @@ a {
     line-height: 42px;
 }
 
+.news {
+    width: 380px;
+}
+
 .news-list {
     list-style: none;
 }
@@ -162,9 +181,21 @@ a {
     text-transform: lowercase;
 }
 
+.gallery {
+    width: 300px;
+}
+
 .gallery-content {
     background-color: #e5e5e5;
     border: 7px solid #ffffff;
+}
+
+.contacts {
+    width: 380px;
+}
+
+.appointment {
+    width: 300px;
 }
 
 .appointment-item input {
@@ -342,12 +373,25 @@ a {
 
 /* подвал сайта */
 .main-footer {
+    padding: 60px 0;
+    margin-top: 65px;
+
     color: #ffffff;
 
     background-color: #242424;
     background-image: url(/img/backgroundFooter.jpg);
     background-position: 0 0;
     background-repeat: repeat;
+}
+
+.main-footer .container {
+    display: flex;
+}
+
+.footer-contacts {
+    width: 380px;
+    margin: 0;
+    margin-right: 80px;
 }
 
 .footer-contacts a {
@@ -361,6 +405,7 @@ a {
 }
 
 .footer-social {
+    width: 145px;
     text-align: center;
 }
 
@@ -373,6 +418,10 @@ a {
 }
 
 .footer-copyright {
+    width: 150px;
+    margin: 0;
+    margin-left: auto;
+
     text-align: center;
 }
 
