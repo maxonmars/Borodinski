@@ -440,6 +440,60 @@ a {
     list-style: none;
 }
 
+/* price.html =================================
+=============== */
+
+.tagline {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 60px;
+
+    font-size: 48px;
+    line-height: 48px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.manufacturer-title,
+.price-title,
+.about-title {
+    margin: 0;
+    padding: 0;
+
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 700;
+}
+
+.manufacturer {
+    width: 380px;
+    margin-bottom: 60px;
+}
+
+.manufacturer-list {
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+.price {
+    width: 460px;
+}
+
+.about-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-text:first-child {
+    width: 380px;
+}
+
+.about-text:last-child {
+    width: 460px;
+}
+
 /* подвал сайта */
 
 .main-footer {
