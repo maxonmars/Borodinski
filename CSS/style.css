@@ -192,6 +192,27 @@ input[type="radio"].visually-hidden {
   background-color: #242424;
 }
 
+.site-navigation-current {
+  position: relative;
+}
+
+.site-navigation-current a:not([href]) {
+  background-color: #000000;
+}
+
+.site-navigation-current::after {
+  content: "";
+
+  position: absolute;
+  right: 20px;
+  bottom: 0;
+  left: 20px;
+
+  height: 5px;
+
+  background-color: #ffffff;
+}
+
 .features {
   margin-bottom: 80px;
 }
@@ -401,6 +422,7 @@ input[type="radio"].visually-hidden {
 
 .inner-page .main-header-logo {
   order: 0;
+
   width: 111px;
   height: 24px;
   padding: 23px 20px;
@@ -425,11 +447,31 @@ input[type="radio"].visually-hidden {
 }
 
 .breadcrumbs {
+  display: flex;
   margin: 0;
   margin-bottom: 50px;
   padding: 0;
 
   list-style: none;
+}
+
+.breadcrumbs li:not(:first-of-type) {
+  position: relative;
+  padding-left: 40px;
+}
+
+.breadcrumbs li:not(:first-of-type)::before {
+  content: "";
+
+  position: absolute;
+  top: 8px;
+  left: 15px;
+
+  width: 8px;
+  height: 8px;
+
+  background-color: #000000;
+  transform: rotate(45deg);
 }
 
 .breadcrumbs a {
